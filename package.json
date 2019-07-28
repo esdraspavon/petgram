@@ -1,11 +1,12 @@
 {
-  "name": "curso-platzi-react-avanzado",
+  "name": "petgram",
   "version": "1.0.0",
-  "description": "Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)",
+  "description": "Pagina social de mascotas",
   "main": "index.js",
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -29,11 +30,13 @@
   "author": "",
   "license": "ISC",
   "standard": {
-    "ignore":[
+    "ignore": [
       "/api/"
     ]
   },
-  "eslintConfig":{
-    "extends": ["./node_modules/standard/eslintrc.json"]
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
