@@ -4,8 +4,11 @@
   "description": "Pagina social de mascotas",
   "main": "index.js",
   "dependencies": {
+    "apollo-boost": "^0.4.3",
+    "graphql": "^14.4.2",
     "intersection-observer": "^0.7.0",
     "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "styled-components": "^4.3.2"
