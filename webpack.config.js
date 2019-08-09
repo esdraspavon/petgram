@@ -27,14 +27,14 @@ module.exports = {
     new WorkboxWebpackPlugin.GenerateSW({
       runtimeCaching: [
         {
-          urlPattern: new RegExp('https://petgram-api-2.now.sh/'),
+          urlPattern: new RegExp('https://(res.cloudinary.com|images.unsplash.com)'),
           handler: 'CacheFirst',
           options: {
             cacheName: 'images'
           }
         },
         {
-          urlPattern: new RegExp('https://'),
+          urlPattern: new RegExp('https://petgram.pavonesdras.now.sh'),
           handler: 'NetworkFirst',
           options: {
             cacheName: 'api'
